@@ -1,10 +1,65 @@
-<!DOCTYPE html>
+{#{% load staticfiles %}#}
+{% load static %}
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Cloner</title>
+    <title>WEBSITE CLONER</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="{% static "css/style.css" %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
-    <h2>Test to see if this works.</h2>
+<nav>
+    <div class="container nav-wrapper">
+        <a href="/" class="brand-logo">WEBSITE CLONER</a>
+        <ul id="nav-mobile" class="right">
+            <li>
+                <a href="/">Home</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+
+    <h3 style="...">What do you want to search in THAT WEBSITE?</h3>
+    <div class="row">
+        <div class="col s4">
+
+
+            <div class="center">
+                <i class="large material-icons" style="color: #66BB6A">shopping_cart</i>
+                <p>Browse in THAT WEBSITE</p>
+                <p class="light center">You can find whatever you need from THAT WEBSITE without visiting.</p>
+            </div>
+
+        </div>
+
+        <div class="col s4">
+            <div class="center">
+                <i class="large material-icons" style="color: #EF6C00">flash_on</i>
+                <p>Fast Web Scraper for THAT WEBSITE</p>
+                <p class="light center">You can simply scrape THAT WEBSITE and see some quick results here.</p>
+            </div>
+        </div>
+
+        <div class="col s4">
+
+            <div class="center">
+                <i class="large material-icons" style="color: #42A5F5">apps</i>
+                <p>See the options</p>
+                <p class="light center">You will see the results of THAT WEBSITE choose among them.</p>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
 </body>
 </html>
+
+
