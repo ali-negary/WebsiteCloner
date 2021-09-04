@@ -21,5 +21,5 @@ urlpatterns = [
     path('', views.home, name='home_page'),
     path('admin/', admin.site.urls),
     path('css/', include('myApp.urls')),
-    path('new-search/', views.new_search, name='new-search')
+    path('new_search/', views.new_search, name='new_search')
 ]

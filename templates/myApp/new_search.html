@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search Page</title>
+</head>
+<body>
+
+{#The lines in the block content will inherit the attributes of base.html (look at first line of this page)#}
+{#Content of the new page must come within this block to work.#}
+{% block content %}
+
+    <h4 style="text-align: center">Results for {{ search | title }}</h4>
+    <div class="row">
+        <div class="col s4">
+            <div class="card">
+                <div class="card-image">
+                    <a href=""><img src="https://cdn01.zoomit.ir/2019/2/9f762c07-56ed-4698-bfdc-750ce44dba00.jpg" alt=""></a>
+                </div>
+                <div class="card-content">
+                    <p>TEST TEXT 1</p>
+                </div>
+                <div class="card-action">
+                    <a href="/">View Listing: price test price</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s4">
+            <div class="card">
+                <div class="card-image">
+                    <a href=""><img src="https://cdn01.zoomit.ir/2018/12/ff81e79e-0d5e-4da8-914f-bc932288e4ee.jpg?w=1300" alt=""></a>
+                </div>
+                <div class="card-content">
+                    <p>TEST TEXT 2</p>
+                </div>
+                <div class="card-action">
+                    <a href="/">View Listing: price test price</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s4">
+            <div class="card">
+                <div class="card-image">
+                    <a href=""><img src="https://cdn01.zoomit.ir/2017/9/916e691b-4999-4fbe-87ed-068b0d2e4d9a.jpg" alt=""></a>
+                </div>
+                <div class="card-content">
+                    <p>TEST TEXT 3</p>
+                </div>
+                <div class="card-action">
+                    <a href="/">View Listing: price test price</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+{% endblock content %}
+
+
+</body>
+</html>
