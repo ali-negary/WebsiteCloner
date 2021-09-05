@@ -1,4 +1,8 @@
 from django.shortcuts import render
+from bs4 import BeautifulSoup
+import requests
+
+website_url = 'https://losangeles.craigslist.org/d/services/search?query={}&sort=rel'
 
 
 def home(request):
