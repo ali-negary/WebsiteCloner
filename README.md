@@ -6,7 +6,8 @@
 - Hard-coded the search page's front-end with pictures of Peykan.
 - new_search method and new_search.html updated with soup.
 - views.py updated with images abd it shows the first image of the add.
+- tried to load the project on heroku but failed. will do that later.
 
-(files need to be cleaned up)
+(project is done for this phase. but files need to be cleaned up)
 
-6:41':00"
+next phase will be using `digikala.com` instead of `craiglist`.
